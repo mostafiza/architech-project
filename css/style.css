@@ -93,11 +93,13 @@ align-items: center;}
 }
 .feature{
     padding-left: 80px;
+
 }
 
 .Quick{
     font-size: 3em;
     font-weight: bold;
+    margin-bottom: 50px;
 }
 .sec{
     margin-bottom: 50px;
@@ -111,7 +113,11 @@ align-items: center;}
 }
 .resume-text{
     padding-left: 10px;
+    gap: 20px;
    
+}
+.Quick{
+    display: grid;
 }
 .hh2{
      padding-left: 30px;
@@ -209,6 +215,10 @@ padding-bottom: 12px;
 
      .main{
        flex-direction: column;
+    }
+    .Quick{
+      grid-column: span (900px);
+
     }
     .hh3{padding: 0 10px;}
     .sponsar{
